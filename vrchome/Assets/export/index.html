@@ -1,0 +1,66 @@
+<html>
+<body>
+<!--
+<FireBoxRoom>
+<Assets>
+<AssetObject id="picframe" src="https://vesta.janusvr.com/files/bepis/hackerspace/picframe.obj.gz" />
+<AssetObject id="wallshelves" src="https://vesta.janusvr.com/files/bepis/hackerspace/wallshelves.obj.gz" />
+<AssetObject id="arcade" src="https://vesta.janusvr.com/files/bepis/hackerspace/arcade.obj.gz" />
+<AssetObject id="space" src="https://vesta.janusvr.com/files/bepis/hackerspace/Hackerspace.dae" />
+<AssetObject id="beanbag" src="beanbag.dae" />
+<AssetObject id="floppy" src="floppy.dae" />
+<AssetObject id="hmd" src="hmd.dae" />
+<AssetObject id="boombox" src="https://vesta.janusvr.com/files/bepis/hackerspace/boombox.obj.gz" />
+<AssetObject id="arcade" src="https://cdn.glitch.com/37bf33a4-8c13-4a86-a5e5-6a2877c373c0%2Fscene.gltf?1531947104930"/>
+<AssetObject id="display" src="https://vesta.janusvr.com/files/bepis/obj/plane.obj" tex0="https://imgur.com/wb606t5.gif" />
+<AssetImage id="arcadegif" src="https://vesta.janusvr.com/files/alfredo/arcade.gif"/>
+<AssetImage id="noisegif" src="https://vesta.janusvr.com/files/alfredo/noise.gif"/>
+<AssetImage id="Annotated_skybox_Irradiance" src="https://vesta.janusvr.com/files/bepis/hackerspace/cubemap_irradiance64.dds" tex_clamp="true" />
+<AssetImage id="Annotated_skybox_radiance" src="https://vesta.janusvr.com/files/bepis/hackerspace/cubemap_radiance256.dds" tex_clamp="true" />
+<AssetImage id="sky_left" src="https://vesta.janusvr.com/files/bepis/template/dark/sky/nx.jpg" />
+<AssetImage id="sky_right" src="https://vesta.janusvr.com/files/bepis/template/dark/sky/px.jpg" />
+<AssetImage id="sky_front" src="https://vesta.janusvr.com/files/bepis/template/dark/sky/pz.jpg" />
+<AssetImage id="sky_back" src="https://vesta.janusvr.com/files/bepis/template/dark/sky/nz.jpg" />
+<AssetImage id="sky_up" src="https://vesta.janusvr.com/files/bepis/template/dark/sky/py.jpg" />
+<AssetImage id="sky_down" src="https://vesta.janusvr.com/files/bepis/template/dark/sky/ny.jpg" />
+<AssetImage id="mute" src="https://vesta.janusvr.com/files/Spyduck/assets/fsm/mesh/win7_mute.png"/>
+<AssetVideo id="smash" sbs3d="false" src="https://my.mixtape.moe/avwpsm.mp4" auto_play="false" />
+<AssetVideo id="stream" src="https://omnibit.io/hls/hackerspace.m3u8" auto_play="false" />
+<AssetVideo id="rtc" auto_play="true" loop="true" src="https://rtc.omnibit.io/fullscreenshare.html?roomid=8840120505904949" />
+<AssetVideo id="dance" auto_play="true" loop="true" src="https://vesta.janusvr.com/files/bepis/videos/kdance1.mp4" />
+<AssetShader id="chromakey" src="https://vesta.janusvr.com/files/cruzjo/scripts/v60_cutout_chromakey_android.txt"/>
+<AssetScript src="https://vesta.janusvr.com/files/Spyduck/assets/deepdream/lain_room/color.js"/>
+<AssetScript src="https://vesta.janusvr.com/files/Spyduck/assets/fsm/radio_mute.js"/>
+<AssetSound id="radio" src="http://212.18.63.135:9034/rock" />
+<AssetWebsurface id="webrtc" height="720" src="https://rtc.omnibit.io/fullscreen.html?roomid=8828670486992224" width="1280" />
+<AssetWebsurface id="desktop" height="720" src="https://vrchat.net/home#" width="1280" />
+<AssetWebsurface id="somafm" height="600" src="https://somafm.com/player/#/now-playing/defcon" width="900" />
+<AssetWebsurface id="game" height="720" width="1280" src="https://www.cryptovoxels.com/play?coords=SW@240E,1S" />
+<AssetWebsurface id="deskcloud" height="720" src="https://terminal.deskcloud.io:8443/#/client/MTIAYwBteXNxbA==" width="1280" />
+</Assets>
+<Room use_local_asset="room_plane" visible="false" pos="4.8 0 5.6" xdir="-0.866019 0 0.500011" zdir="-0.500011 0 -0.866019" skybox_right_id="sky_right" skybox_left_id="sky_left" skybox_up_id="sky_up" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_back_id="sky_back" cubemap_radiance_id="Annotated_skybox_radiance" cubemap_irradiance_id="Annotated_skybox_Irradiance" party_mode="false" >
+<Object id="space" js_id="Bullet" scale="0.75 0.75 0.75" col="#4c4c4c" lighting="true" />
+<Object id="arcade" js_id="user-3-1502840616" pos="-2.3 0 6.2" xdir="0 0 1" zdir="-1 0 0" />
+<Object id="plane" image_id="arcadegif" lighting="off" pos="-2.3 1.68 6.48" rotation="-5 0 0" scale="0.55 0.55 0.55"/>
+
+<Object id="boombox" js_id="radio_control" collision_id="cube" collision_pos="0 0.921479 0.046367" collision_scale="2.63144 1.84296 0.67236" locked="true" onclick="radio_click()" pos="3 0.37 -1" xdir="-0.193673 0 -0.981066" zdir="0.981066 0 -0.193673" />
+<Object id="boombox" col="1 1 1 0.2" js_id="radio_control_highlight" pos="3 0.37 -1" xdir="-0.193673 0 -0.981066" zdir="0.981066 0 -0.193673" locked="true" opacity="0.2" cull_face="none"  />
+<Sound gain="0.4" id="radio" js_id="radio_sound" pos="3.09 0.47 -1.1" rect="-100 -100 100 100" scale="1.5 1.5 1.5"/>
+<Object id="plane" image_id="mute" js_id="radio_mute" col="1 1 1 0.4" cull_face="none" lighting="false" locked="false" pos="3.09 0.47 -1.1" visible="false" pos="3.0 0.5 -0.95" xdir="0.970248 0 -0.242112" zdir="0.242112 0 0.970248" />
+
+<Object id="picframe" js_id="js_backdrop2" pos="-6.8 2.1 2.2" xdir="0.000001 -1 0.000001" ydir="-0.000006 0.000001 1" zdir="-1 -0.000001 -0.000006" scale="7 7 7" />
+<Object id="wallshelves" js_id="user-993944" pos="-3.7 1.9 6.4" xdir="1 0 0.000002" ydir="0 1 -0.000002" zdir="-0.000002 0.000002 1" />
+<Object id="plane" js_id="user-18-1502841119" pos="-6.7 2.05 2.14" xdir="0.000005 0 -1" zdir="1 0 0.000005" scale="5.78 3.4 1" collision_id="plane" lighting="false" websurface_id="game" />
+<Object id="display" js_id="user-24-1502842135" pos="-0.37 1.38 1.937" xdir="-0.99863 -0 -0.052335" ydir="-0.003651 0.997564 0.06966" zdir="0.052207 0.069756 -0.996197" scale="0.66 0.505 1" lighting="false" collision_id="plane" websurface_id="desktop" />
+<Object id="plane" js_id="user-23-1502842012" pos="4.55 2.49 -1.28" xdir="0.998629 0 0.052341" zdir="-0.052341 0 0.998629" scale="0.682 0.5 1" collision_id="plane" lighting="false" websurface_id="somafm" />
+<Light js_id="A-12-1503970243" pos="4.9 2.8 2.2" xdir="0.918792 -0 0.39474" ydir="-0.390233 -0.150687 0.908301" zdir="0.059482 -0.988582 -0.13845" col="cyan" light_intensity="15" light_cone_angle="0" light_cone_exponent="1" light_range="8" />
+<Light js_id="A-4-1504228698" pos="-3.8 3.2 0.5" xdir="-0.96887 0 0.247571" ydir="-0.247041 -0.065402 -0.966795" zdir="0.016192 -0.997859 0.063366" col="red" light_intensity="15" light_cone_angle="0" light_cone_exponent="1" light_range="8" />
+<Light js_id="A-5-1504228790" pos="-4.2 3.6 4.5" xdir="-0.065394 -0 0.99786" ydir="-0.997301 -0.033445 -0.065357" zdir="0.033374 -0.999441 0.002187" col="green" light_intensity="15" light_cone_angle="0" light_cone_exponent="1" light_range="8" />
+<!-- Object id="plane" js_id="jinn-2-1539717340" pos="-4 0.7 1.9" xdir="0.231982 0 -0.97272" zdir="0.97272 0 0.231982" scale="2 1.4 1" collision_id="plane" shader_id="chromakey" chromakey_col="#0.0 1.0 0.0 0.5" col="1 1 1" cull_face="none" video_id="dance" /> -->
+</Room>
+</FireBoxRoom>
+ -->
+<script src="https://web.janusvr.com/janusweb.js"></script>
+<script>elation.janusweb.init({url: document.location.href})</script>
+</body>
+</html>
