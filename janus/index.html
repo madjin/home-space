@@ -1,0 +1,128 @@
+<html>
+<body>
+<!--
+<FireBoxRoom>
+ <Assets>
+  <AssetObject id="picframe" src="export/picframe.obj"/>
+  <AssetObject id="wallshelves" src="export/wallshelves.obj"/>
+  <AssetObject id="space" src="export/Hackerspace3.dae"/>
+  <AssetObject id="beanbag" src="export/beanbag.dae"/>
+  <AssetObject id="floppy" src="export/floppy.dae"/>
+  <AssetObject id="hmd" src="export/hmd.dae"/>
+  <AssetObject id="chair" src="export/chair.dae"/>
+  <AssetObject id="vending-machine" mtl="export/vendingmachine.mtl" src="export/vendingmachine.obj"/>
+  <AssetObject id="arcadecabinet" src="export/cabinet.obj" mtl="export/cabinet.mtl" />
+  <AssetObject id="dreamdesk" mtl="export/DraftingDeskAndMonitor.mtl" src="export/DraftingDeskAndMonitor.obj"/>
+  <AssetObject id="BigRoof" src="export/BigRoof.dae"/>
+  <AssetObject id="BigFloor" src="export/BigFloor.dae"/>
+  <AssetObject id="laptop" mtl="export/laptop.mtl" src="export/laptop.obj"/>
+  <AssetObject id="Desk" mtl="export/Desk.mtl" src="export/Desk.obj"/>
+  <AssetObject id="boombox" src="export/boombox.obj"/>
+  <AssetObject id="display" src="export/plane.obj" tex0="export/screensaver1.gif"/>
+  <AssetObject id="orb" src="export/PHOTOSPHEREinFacing.obj"/>
+  <AssetObject id="base" mtl="export/base.mtl" src="export/base.obj"/>
+  <AssetObject id="big_speaker" src="export/big_speaker.dae"/>
+
+  <AssetImage id="noisegif" src="img/noise.gif"/>
+  <AssetImage id="Annotated_skybox_Irradiance" src="img/cubemap_irradiance64.dds" tex_clamp="true"/>
+  <AssetImage id="Annotated_skybox_radiance" src="img/cubemap_radiance256.dds" tex_clamp="true"/>
+  <AssetImage id="sky_left" src="img/nx.jpg"/>
+  <AssetImage id="sky_right" src="img/px.jpg"/>
+  <AssetImage id="sky_front" src="img/pz.jpg"/>
+  <AssetImage id="sky_back" src="img/nz.jpg"/>
+  <AssetImage id="sky_up" src="img/py.jpg"/>
+  <AssetImage id="sky_down" src="img/ny.jpg"/>
+  <AssetImage id="mute" src="img/win7_mute.png"/>
+  <AssetImage id="screensaver" src="img/screensaver2.gif"/>
+  <AssetImage id="ledsign" src="img/ledsign.gif"/>
+
+  <AssetScript src="scripts/videoscreen.js"/>
+  <AssetScript src="scripts/TACOS_Vnazrin.1.4.js"/>
+  <AssetScript src="scripts/radio_mute.js"/>
+  <AssetSound id="radio" src="http://212.18.63.135:9034/rock"/>
+
+  <AssetWebsurface height="720" id="vesta" src="https://vesta.janusvr.com/" width="1280"/>
+  <AssetWebsurface id="vrchat" src="https://vrchat.net/home/worlds"/>
+  <AssetWebsurface height="600" id="somafm" src="https://somafm.com/player/#/now-playing/defcon" width="900"/>
+  <AssetWebsurface height="720" id="game" src="https://www.cryptovoxels.com/play?performance=low" width="1280"/>
+  <AssetWebsurface height="720" id="opensea" src="https://opensea.io/category/cryptovoxels" width="480"/>
+  <AssetWebsurface height="480" id="crystalis" src="https://crystalis-vr.glitch.me/" width="640"/>
+  <AssetWebsurface height="720" id="twitch" src="https://player.twitch.tv/?volume=0.5&amp;!muted&amp;channel=anarchyarcade" width="1280"/>
+  <AssetWebsurface height="720" id="aa360" src="http://www.anarchyarcade.com/2d/chillroom_abfab36c3/" width="1280"/>
+  <AssetWebsurface height="640" id="sketchfab" src="https://sketchfab.com/models/478d32513eda44338b59aa2284ee01b8/embed" width="960"/>
+  <AssetWebsurface id="editor_threejs" src="https://threejs.org/editor/"/>
+  <AssetWebsurface id="editor_babylonjs" src="http://editor.babylonjs.com/"/>
+
+ </Assets>
+ <Room ambient="0.1 0.1 0.1" cubemap_irradiance_id="Annotated_skybox_Irradiance" cubemap_radiance_id="Annotated_skybox_radiance" party_mode="false" pos="2.8 0.2 4.6" shadows="true" skybox_back_id="sky_back" skybox_down_id="sky_down" skybox_front_id="sky_front" skybox_left_id="sky_left" skybox_right_id="sky_right" skybox_up_id="sky_up" tonemapping_exposure="0.6" toon="true" use_local_asset="room_plane" visible="false" xdir="-0.866019 0 0.500011" zdir="-0.500011 0 -0.866019">
+
+  <Object col="#4c4c4c" id="space" js_id="Bullet" lighting="true" scale="0.75 0.75 0.75"/>
+  <Object id="picframe" js_id="js_backdrop2" pos="-6.8 2.1 2.2" scale="7 7 7" xdir="0.000001 -1 0.000001" ydir="-0.000006 0.000001 1" zdir="-1 -0.000001 -0.000006"/>
+  <Object id="wallshelves" js_id="user-993944" pos="-3.7 1.9 6.4" xdir="1 0 0.000002" ydir="0 1 -0.000002" zdir="-0.000002 0.000002 1"/>
+
+
+  <Object collision_id="cube" collision_pos="0 0.921479 0.046367" collision_scale="2.63144 1.84296 0.67236" id="boombox" js_id="radio_control" locked="true" onclick="radio_click()" pos="3 0.37 -1" xdir="-0.193673 0 -0.981066" zdir="0.981066 0 -0.193673"/>
+  <Object col="1 1 1 0.2" cull_face="none" id="boombox" js_id="radio_control_highlight" locked="true" opacity="0.2" pos="3 0.37 -1" xdir="-0.193673 0 -0.981066" zdir="0.981066 0 -0.193673"/>
+  <Sound gain="0.4" id="radio" js_id="radio_sound" pos="3.09 0.47 -1.1" rect="-100 -100 100 100" scale="1.5 1.5 1.5"/>
+  <Object col="1 1 1 0.4" cull_face="none" id="plane" image_id="mute" js_id="radio_mute" lighting="false" locked="false" pos="3.09 0.47 -1.1" visible="false" xdir="0.970248 0 -0.242112" zdir="0.242112 0 0.970248"/>
+  
+  <Light col="purple" js_id="js_backdroeep" light_cone_angle="0" light_cone_exponent="1" light_intensity="7" light_range="10" pos="4.9 2.8 2.2" xdir="0.918792 -0 0.39474" ydir="-0.390233 -0.150687 0.908301" zdir="0.059482 -0.988582 -0.13845"/>
+  <Light col="white" js_id="A-4-1504228698" light_cone_angle="0" light_cone_exponent="1" light_intensity="10" light_range="8" light_shadow="true" pos="-3.8 3.2 0.5" xdir="-0.96887 0 0.247571" ydir="-0.247041 -0.065402 -0.966795" zdir="0.016192 -0.997859 0.063366"/>
+  <Light col="cyan" js_id="A-5-1504228790" light_cone_angle="0" light_cone_exponent="1" light_intensity="10" light_range="8" light_shadow="true" pos="-4.2 3.6 4.5" xdir="-0.065394 -0 0.99786" ydir="-0.997301 -0.033445 -0.065357" zdir="0.033374 -0.999441 0.002187"/>
+  
+  <Object id="floppy" js_id="jinn-4-1539902506" pos="1.22 0.62 1" xdir="-0.689401 0 0.72438" zdir="-0.72438 0 -0.689401"/>
+  <Object id="dreamdesk" js_id="jinn-2-1539902480" pos="4.95 0 -0.5"/>
+  <Object id="vending-machine" js_id="jinn-1-1539904653" pos="-2.4 0 -1.3"/>
+  <Object id="arcadecabinet" js_id="jinn-5445-1539912043" pos="-2.3 0 6.08" scale="0.7 0.8 0.8" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Object id="Desk" js_id="jinn-9-1539906281" pos="-0.4 0 1.4" scale="0.4 0.4 0.3"/>
+  <Object cull_face="none" id="BigFloor" js_id="jinn-17-1539906627" pos="-0.1 1.4 2.1" scale="0.7 0.7 0.6" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Object cull_face="none" id="BigRoof" js_id="jinn-12-1539906370" pos="8.900001 2.4 -1.3" scale="1.2 1.2 1"/>
+  <Object cull_face="none" id="BigRoof" js_id="jinn-21-1539907700" pos="0.2 1.6 6.1" scale="1.6 1.5 0.8" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Object id="laptop" js_id="jinn-5-1539905995" pos="8.2 3.82 2.5" scale="0.76 0.73 0.7" xdir="0 0 1" zdir="-1 0 0"/>
+  <Object id="beanbag" js_id="jinn-1-1539905848" pos="-3.4 0.1 1.3" scale="0.6 0.6 0.8" xdir="-0.256019 0 -0.966672" zdir="0.966672 0 -0.256019"/>
+  <Object id="beanbag" js_id="jinn-5-1539902534" pos="-3.7 0.11 4.11" scale="0.6 0.6 0.8" xdir="0.25882 0 -0.965926" zdir="0.965926 0 0.25882"/>
+
+
+  <Object collision_id="plane" id="plane" js_id="user-18-1502841119" lighting="false" pos="-6.7 2.05 2.14" scale="5.9 3.4 1" websurface_id="game" xdir="0.000005 0 -1" zdir="1 0 0.000005"/>
+  <Object collision_id="plane" id="display" js_id="user-24-1502842135" lighting="false" pos="-0.1 1.4 2.12" scale="1.15 0.72 1" websurface_id="vesta" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Object collision_id="plane" id="plane" image_id="screensaver" js_id="user-23-1502842012" lighting="false" pos="8.22 3.9 2.48" scale="0.82 0.5 1"/>
+  <Object collision_id="plane" id="plane" image_id="screensaver" js_id="jinn-15-1539906453" pos="8.9 4.02 -1.34" scale="1.92 1.24 1"/>
+  <Object collision_id="plane" id="plane" image_id="screensaver" js_id="jinn-24-1539908497" pos="0.2 3.62 6.114" scale="2.721 1.534 1" xdir="-1 0 0" zdir="0 0 -1"/>
+  <Object collision_id="plane" id="plane" js_id="jinn-25-1539908612" pos="-2.43 1.62 -0.94" scale="0.7 1.45 1" websurface_id="opensea" xdir="0.999948 0 -0.010204" zdir="0.010204 0 0.999948"/>
+  <Object collision_id="plane" id="plane" js_id="jinn-26-1539908671" pos="-2.3 1.57 5.82" scale="0.7 0.5 1" image_id="crystalis" xdir="-1 0 0" ydir="0 0.996195 0.087156" zdir="0 0.087156 -0.996195"/>
+  <Object collision_id="plane" id="plane" js_id="jinn-19-1539907198" pos="4.334 1.5 -1.125" scale="1.21 0.65 1" visible="false" xdir="0.990268 0 -0.139173" zdir="0.139173 0 0.990268"/>
+  <Object collision_id="plane" id="plane" js_id="jinn-18-1539906937" pos="5.57 1.5 -1.11" scale="1.24 0.66 1" visible="false" xdir="0.990268 0 0.139173" zdir="-0.139173 0 0.990268"/>
+
+
+  <Object collision_id="cube" id="cube" locked="true" onclick="Slide(1,0,0.05,3000,0);" pos="1 0 0" visible="false"/>
+  <Object collision_id="cube" id="cube" js_id="jin-1-1540291148" locked="true" onclick="Slide(-3.8,0.5,1.3,3000,0);" pos="-3.8 -0.4 1.3" visible="false" xdir="-0.410729 0 -0.911758" zdir="0.911758 0 -0.410729"/>
+  <Object collision_id="cube" id="cube" js_id="jin-2-1540291170" locked="true" onclick="Slide(-4,0.5,4,3000,0);" pos="-4 -0.4 4" visible="false" xdir="0.207902 0 -0.97815" zdir="0.97815 0 0.207902"/>
+  <Object collision_id="cube" id="cube" js_id="jin-3-1540291183" locked="true" onclick="Slide(7.9,3,3.3,3000,0);" pos="7.9 2.7 3.3" visible="false" xdir="0.187962 0 0.982176" zdir="-0.982176 0 0.187962"/>
+  <Object collision_id="cube" id="cube" js_id="jin-4-1540291199" locked="true" onclick="Slide(9.3,3,0.3,3000,0);" pos="9.3 2.7 0.3" visible="false" xdir="-0.207902 0 0.97815" zdir="-0.97815 0 -0.207902"/>
+
+
+  <Object collision_id="cube" js_id="jinn-1-1539968900" pos="2 2 -2" scale="19 7 1" visible="false"/>
+  <Object collision_id="cube" id="cube" js_id="jinn-8-1539969018" pos="9.1 2.2 1.4" scale="6.5 0.5 3.8" visible="false" xdir="0 0 1" zdir="-1 0 0"/>
+  <Object collision_id="cube" js_id="jinn-6-1539968986" pos="2 3 7" scale="19 7 1" visible="false"/>
+  <Object collision_id="cube" js_id="jinn-10-1539969233" pos="10.7 2.2 2.49" scale="8.05 6 0.3" visible="false" xdir="0.024002 0 0.999712" zdir="-0.999712 0 0.024002"/>
+  <Object collision_id="cube" js_id="jinn-11-1539969274" pos="-7 2.9 2.5" scale="8.05 6 0.1" visible="false" xdir="0 0 1" ydir="0 -1 0" zdir="1 0 0"/>
+  <Object collision_id="cube" js_id="jinn-13-1539969415" pos="1.8 -0.4 2.5" scale="8 0.1 18.200001" visible="false" xdir="0 0 1" zdir="-1 0 0"/>
+  <Object collision_id="cube" id="cube" js_id="jinn-1-1539972898" pos="8.1 1 5.6" scale="1.9 0.55 7" visible="false" xdir="0 0 1" ydir="-0.422618 0.906308 0" zdir="-0.906308 -0.422618 0"/>
+  <Object collision_id="cube" id="cube" js_id="koolguy1337-2-1520959750" pos="0 -0.5 3.5" scale="100000 0.1 100000" visible="false" xdir="-1 0 0.000002" zdir="-0.000002 0 -1"/>
+
+  <Object cull_face="none" id="chair" js_id="jinn-1-1539935276" pos="1.02 0 0.05"/>
+  <Object collision_id="orb" id="orb" js_id="jin-2-1540434655" lighting="true" pos="-1.01 1.17 1.01" scale="0.18 0.18 0.19" xdir="-0.008734 0 -0.999962" zdir="0.999962 0 -0.008734"/>
+  <Object cull_face="none" id="base" js_id="jin-1-1540434600" pos="-1.01 0.96 1.01" scale="0.18 0.18 0.18" xdir="0.317294 0 -0.948327" zdir="0.948327 0 0.317294"/>
+  <Object id="laptop" js_id="jin_8749-2-1540764139" pos="-1.17 1.16 1.87" scale="0.66 0.63 0.59" xdir="0.866026 0 -0.5" zdir="0.5 0 0.866026"/>
+  <Object collision_id="plane" id="plane" js_id="jin_8749-5-1540764341" lighting="false" pos="-1.193 1.2 1.871" scale="0.69 0.45 1" websurface_id="somafm" xdir="-0.498747 0 -0.866747" zdir="0.866747 0 -0.498747"/>
+  
+  <Object col="#fdffff" collision_id="plane" cull_face="none" id="plane" image_id="ledsign" js_id="jinn-99-1542526291" lighting="false" pos="-3.2 4.2 -1.9" scale="4.2 0.5 1"/>
+  <Object id="big_speaker" js_id="speaker_base_1" pos="-7.2 3.8 6.3" xdir="-0.409307 0.006907 -0.912371" ydir="0.250786 0.962307 -0.105222" zdir="0.877254 -0.271878 -0.395611"/>
+  <Object id="big_speaker" js_id="speaker_1" pos="-6.86 3.78 -1.66" xdir="0.537277 -0.011015 -0.843334" ydir="0.168918 0.98106 0.094802" zdir="0.826317 -0.193389 0.528961"/>
+ </Room>
+</FireBoxRoom>
+-->
+<script src="https://web.janusvr.com/janusweb.js"></script>
+<script>elation.janusweb.init({url: document.location.href})</script>
+</body>
+</html>
