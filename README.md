@@ -51,7 +51,7 @@ If you're on a chrome based browser like Chrome, Chromium, or Brave, enable the 
 
 ### 2. :house: Home Space 
 
-This is the equivalent of Oculus / Steam / Windows Mixed Reality home but more customizable since its open source and using open web standards. There are a couple home space templates that are provided within this repo:
+This is the equivalent of Oculus / Steam / Windows Mixed Reality home but more customizable since its open source and using open web standards. Here's a few sample virtual home space templates:
 
 <a href="https://github.com/madjin/home-space">
   <img alt="Container" target="_blank" src="https://i.imgur.com/GQO4lV3.jpg" height="190" width="32%">
@@ -87,5 +87,5 @@ Choose where you place your Home Space in the metaverse. You can create a federa
 - [ ] Setup demo site for Startpage + Home Space
 - [ ] Instructions for Janus Home
 - [ ] Instructions for setting up VRChat Home
-- [ ] Release new templates (Anime room, Cyberpunk apartment, ...)
+- [x] Release new templates (Anime room, Tuscany, ...)
 - [ ] Finish video trailer
