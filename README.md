@@ -80,16 +80,16 @@ Choose where you place your Home Space in the metaverse. You can create a federa
 
 ### 4. :stars: The Metaverse
 
-In short, the Metaverse is the next major iteration of the Internet, a global computer network consisting of billions of electronic devices and interconnected networks using standardized communication protocols. The current Web sits at this layer as the leading information retrieval service, giving users access to a vast array of online content by means of hypertext, hypermedia, and hyperlinks formatted in HTML and served through HTTP. In the next decade we'll have new interfaces that see and interact in this virtual shared universe of unlimited possibility as well as new protocols to optimize the delivery of experiences. 
+In short, the Metaverse is the next major iteration of the Internet, a global computer network consisting of billions of electronic devices and interconnected networks using standardized communication protocols. The current Web sits at this layer as the leading information retrieval service, giving users access to a vast array of online content by means of hypertext, hypermedia, and hyperlinks formatted in HTML and served through HTTP. 
 
 <a href="https://i.imgur.com/TzR5qSI.jpg">
-  <img alt="wWW" target="_blank" src="https://i.imgur.com/TzR5qSI.jpg" height="190" width="49%">
+  <img alt="wWW" target="_blank" src="https://i.imgur.com/TzR5qSI.jpg" height="420" width="49%">
 </a>
 <a href="https://www.augmentedperception.com/">
-  <img alt="Federated" target="_blank" src="https://i.imgur.com/D98s2Eb.gif" height="190" width="49%">
+  <img alt="Federated" target="_blank" src="https://i.imgur.com/D98s2Eb.gif" height="420" width="49%">
 </a>
 
-![](https://i.imgur.com/IaW6zgj.gif)
+In the next decade we'll have new AR/VR interfaces that see and interact in this virtual shared universe of unlimited possibility as well as new protocols to optimize the delivery of experiences.
 
 ---
 
