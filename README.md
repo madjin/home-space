@@ -68,8 +68,8 @@ This is the equivalent of Oculus / Steam / Windows Mixed Reality home but more c
 Choose where you place your Home Space in the metaverse. You can create a federated network of linked virtual worls with your friends, purchase virtual property on platforms like in the case of [Cryptovoxels](https://www.cryptovoxels.com) and [Decentraland](https://decentraland.org), or just host on your own local grid. The exit portal is defined on line _ in the [JML]() for the container home.
 
 
-<a href="https://www.augmentedperception.com/">
-  <img alt="Federated" target="_blank" src="https://i.imgur.com/PJWFG8x.jpg" height="190" width="32%">
+<a href="https://github.com/janusvr-examples/desert">
+  <img alt="JanusWeb" target="_blank" src="https://i.imgur.com/W5F9qE5.jpg" height="190" width="32%">
 </a>
 <a href="https://www.cryptovoxels.com/">
   <img alt="Cryptovoxels" target="_blank" src="https://i.imgur.com/IlcKVCk.jpg" height="190" width="32%">
@@ -78,6 +78,18 @@ Choose where you place your Home Space in the metaverse. You can create a federa
   <img alt="Decentraland" target="_blank" src="https://i.imgur.com/ZCyYq3s.jpg" height="190" width="32%">
 </a>
 
+### 4. :stars: The Metaverse
+
+In short, the Metaverse is the next major iteration of the Internet, a global computer network consisting of billions of electronic devices and interconnected networks using standardized communication protocols. The current Web sits at this layer as the leading information retrieval service, giving users access to a vast array of online content by means of hypertext, hypermedia, and hyperlinks formatted in HTML and served through HTTP. In the next decade we'll have new interfaces that see and interact in this virtual shared universe of unlimited possibility as well as new protocols to optimize the delivery of experiences. 
+
+<a href="https://i.imgur.com/TzR5qSI.jpg">
+  <img alt="wWW" target="_blank" src="https://i.imgur.com/TzR5qSI.jpg" height="190" width="49%">
+</a>
+<a href="https://www.augmentedperception.com/">
+  <img alt="Federated" target="_blank" src="https://i.imgur.com/D98s2Eb.gif" height="190" width="49%">
+</a>
+
+![](https://i.imgur.com/IaW6zgj.gif)
 
 ---
 
