@@ -1,6 +1,6 @@
-# home-space
+# Home Space
 
-An open source virtual home that can be self-hosted and accessible from anywhere.
+An open source virtual home that can be self-hosted and accessible from anywhere.  
 
 ![](https://i.imgur.com/K0vf2rD.jpg)
 
@@ -30,7 +30,7 @@ Setting up your home space (coming soon)
 
 **Hubs**
 
-(coming soon)
+Using Spoke to create a Home Space (coming soon)
 
 ---
 
@@ -43,9 +43,17 @@ Where is your Home Space being hosted, locally or on a server? There are advanta
 
 This is the 2D front-door to your virtual home, typically presented as a new tab page or also known as a [homepage](https://en.wikipedia.org/wiki/Home_page). It is recommended to install a custom 2D [Startpage](https://github.com/madjin/startpage) and use that as your launcher into the WebXR home space. Remember to set the new default home page in your preferred web browser of choice to this startpage so that you can easily jump back to it.
 
-![](https://i.imgur.com/5NCn5zN.jpg)
+<a href="https://github.com/madjin/startpage">
+  <img alt="startpage1" target="_blank" src="https://i.imgur.com/5NCn5zN.jpg" height="190" width="32%">
+</a>
+<a href="https://github.com/Ozencb/tilde-enhanced">
+  <img alt="tilde" target="_blank" src="https://i.imgur.com/k7kS2Q8.jpg" height="190" width="32%">
+</a>
+<a href="https://github.com/linuxserver/Heimdall">
+  <img alt="Heimdall" target="_blank" src="https://i.imgur.com/XatmmTl.jpg" height="190" width="32%">
+</a>
 
-You can find more customizable startpages on Github: <https://github.com/search?q=startpage>
+You can find many great customizable startpages here <https://startpages.github.io/> or on Github <https://github.com/search?q=startpage>.
 
 If you're on a chrome based browser like Chrome, Chromium, or Brave, enable the Home button by going to `chrome://settings/`.
 
@@ -80,7 +88,7 @@ Choose where you place your Home Space in the metaverse. You can create a federa
 
 ### 4. :stars: The Metaverse
 
-In short, the Metaverse is the next major iteration of the Internet, a global computer network consisting of billions of electronic devices and interconnected networks using standardized communication protocols. The current Web sits at this layer as the leading information retrieval service, giving users access to a vast array of online content by means of hypertext, hypermedia, and hyperlinks formatted in HTML and served through HTTP. 
+In short, [the Metaverse](https://en.wikipedia.org/wiki/Metaverse) is the next major iteration of the Internet, a global computer network consisting of billions of electronic devices and interconnected networks using standardized communication protocols. The current Web sits as the leading information retrieval service, giving users access to a vast array of online content by means of hypertext, hypermedia, and hyperlinks formatted in HTML and served through HTTP.
 
 <a href="https://i.imgur.com/TzR5qSI.jpg">
   <img alt="wWW" target="_blank" src="https://i.imgur.com/TzR5qSI.jpg" height="420" width="49%">
@@ -89,7 +97,7 @@ In short, the Metaverse is the next major iteration of the Internet, a global co
   <img alt="Federated" target="_blank" src="https://i.imgur.com/D98s2Eb.gif" height="420" width="49%">
 </a>
 
-In the next decade we'll have new AR/VR interfaces that see and interact in this virtual shared universe of unlimited possibility as well as new protocols to optimize the delivery of experiences.
+In the next decade we'll have new interfaces that see and interact in this virtual shared universe of unlimited possibility as well as new protocols to optimize the delivery of experiences. 
 
 ---
 
