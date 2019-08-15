@@ -1,6 +1,6 @@
 # Home Space
 
-An open source virtual home that can be self-hosted and accessible from anywhere.  
+An open source virtual home that can be self-hosted and accessible from anywhere: [**DEMO**](https://madjin.github.io/home-space/janus/index.html) 
 
 ![](https://i.imgur.com/K0vf2rD.jpg)
 
