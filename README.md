@@ -122,3 +122,7 @@ In the next decade we'll have new interfaces that see and interact in this virtu
 - [x] Release new templates (Anime room, Tuscany, ...)
 - [ ] Roadmap?
 - [ ] Finish video trailer
+
+---
+
+Special thanks to AnaGameDev for the original hackerspace model! Check out [Pixel Ripped](http://www.pixelripped.com/), the game within a game concept really inspired this project.
