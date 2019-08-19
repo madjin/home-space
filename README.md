@@ -4,7 +4,7 @@ An open source alternative to SteamVR / Oculus Home that you can own!
 
 ![](https://i.imgur.com/K0vf2rD.jpg)
 
-[**Startpage demo**](https://madjin.github.io/startpage/) / [**Home Space demo**](https://madjin.github.io/home-space/janus/index.html) 
+[**Startpage demo**](https://madjin.github.io/startpage/) / [**Home Space demo**](https://madjin.github.io/home-space/janus/index.html) [Warning: old version] 
 
 ## Features
 
@@ -41,7 +41,11 @@ Using Spoke to create a Home Space (coming soon)
 
 ### 0. :computer: Hosting
 
-Where is your Home Space being hosted, locally or on a server? There are advantages to both and one can use a combination of hosting methods to adhere to different needs and use-cases.
+Where is your Home Space being hosted? There are advantages to using a combination of hosting methods to adhere to different needs and use-cases.
+
+It's recommended to have a local offline version of your startpage or Home Space for the fastest speeds. One option is to host with a singleboard PC like a [Raspberry Pi](https://www.raspberrypi.org/) and web server software such as [Apache](https://www.raspberrypi.org/documentation/remote-access/web-server/apache.md) or [Nginx](https://www.raspberrypi.org/documentation/remote-access/web-server/nginx.md) over the local area network. 
+
+Alternatively you can use newer protocols such as [IPFS](https://ipfs.io) or [dat](https://dat.foundation/) to serve your Home Space over peer-to-peer networks for a true off-the-grid experience.
 
 
 ### 1. :door: Startpage
@@ -60,7 +64,7 @@ This is the 2D front-door to your virtual home, typically presented as a new tab
 
 You can find many great customizable startpages here <https://startpages.github.io/> or on Github <https://github.com/search?q=startpage>.
 
-If you're on a chrome based browser like Chrome, Chromium, or Brave, enable the Home button by going to `chrome://settings/`.
+The last step here is to point the homepage button and/or new tab page on your browser to the new startpage from the settings. If you're on a chrome based browser like Chrome, Chromium, or Brave, you must first enable the Home button by going to `chrome://settings/`.
 
 ### 2. :house: Home Space 
 
@@ -110,7 +114,7 @@ In the next decade we'll have new interfaces that see and interact in this virtu
 ## To-Do
 
 - [x] Setup demo site for Startpage + Home Space
-- [ ] Add more content for hosting options
+- [x] Add more content for hosting options
 - [ ] Instructions for Janus Home
 - [ ] Instructions for setting up VRChat Home
 - [ ] Update VRChat and Janus projects to new version
