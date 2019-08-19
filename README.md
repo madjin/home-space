@@ -1,6 +1,6 @@
 # Home Space
 
-An open source virtual home alternative to SteamVR / Oculus Home that can be self-hosted and made accessible across various platforms. 
+An open source alternative to SteamVR / Oculus Home that you can own!
 
 ![](https://i.imgur.com/K0vf2rD.jpg)
 
@@ -116,4 +116,5 @@ In the next decade we'll have new interfaces that see and interact in this virtu
 - [ ] Update VRChat and Janus projects to new version
 - [ ] Spoke project files for Hubs
 - [x] Release new templates (Anime room, Tuscany, ...)
+- [ ] Roadmap?
 - [ ] Finish video trailer
