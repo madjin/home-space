@@ -1,14 +1,19 @@
 # Home Space
 
-An open source virtual home that can be self-hosted and accessible from anywhere: [**DEMO**](https://madjin.github.io/home-space/janus/index.html) 
+An open source virtual home alternative to SteamVR / Oculus Home that can be self-hosted and made accessible across various platforms. 
 
 ![](https://i.imgur.com/K0vf2rD.jpg)
 
+[**Startpage demo**](https://madjin.github.io/startpage/) / [**Home Space demo**](https://madjin.github.io/home-space/janus/index.html) 
+
 ## Features
 
+- Modular shipping container design to be portable
+- Launch your favorite apps, including VR experiences
 - JanusVR version 
 - Unity project files
 - glTF 2.0 files
+- Spoke project files for Hubs (coming soon)
 
 ---
 
@@ -104,8 +109,11 @@ In the next decade we'll have new interfaces that see and interact in this virtu
 
 ## To-Do
 
-- [ ] Setup demo site for Startpage + Home Space
+- [x] Setup demo site for Startpage + Home Space
+- [ ] Add more content for hosting options
 - [ ] Instructions for Janus Home
 - [ ] Instructions for setting up VRChat Home
+- [ ] Update VRChat and Janus projects to new version
+- [ ] Spoke project files for Hubs
 - [x] Release new templates (Anime room, Tuscany, ...)
 - [ ] Finish video trailer
