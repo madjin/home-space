@@ -125,4 +125,4 @@ In the next decade we'll have new interfaces that see and interact in this virtu
 
 ---
 
-Special thanks to AnaGameDev for the original hackerspace model! Check out [Pixel Ripped](http://www.pixelripped.com/), the game within a game concept really inspired this project.
+Big thanks to [AnaGameDev](http://www.pixelripped.com/about/) for the hackerspace model and game within a game inspiration.
