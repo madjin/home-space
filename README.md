@@ -4,7 +4,7 @@ An open source alternative to SteamVR / Oculus Home that you can own!
 
 ![](https://i.imgur.com/K0vf2rD.jpg)
 
-[**Startpage demo**](https://madjin.github.io/startpage/) / [**Home Space demo**](https://madjin.github.io/home-space/janus/index.html) [Warning: old version] 
+[**Startpage demo**](https://madjin.github.io/startpage/) / [**Home Space demo**](http://home.hackerlab.eth.link/) [WIP] 
 
 ## Features
 
