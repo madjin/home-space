@@ -1,0 +1,259 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "HubsComponentsExtensionProperties" : {}
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "extras" : {},
+            "mesh" : 0,
+            "name" : "Container",
+            "rotation" : [
+                0.5,
+                -0.5000000596046448,
+                0.5,
+                0.4999999403953552
+            ],
+            "scale" : [
+                0.3858495354652405,
+                0.3858496844768524,
+                0.3858496844768524
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 0
+            },
+            "extras" : {
+                "hubs_component_list" : {}
+            },
+            "name" : "Exterior_Bake",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0
+            }
+        },
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                1,
+                1,
+                1
+            ],
+            "emissiveTexture" : {
+                "index" : 2
+            },
+            "extras" : {
+                "hubs_component_list" : {}
+            },
+            "name" : "Interior_Bake",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 3
+                },
+                "metallicFactor" : 0
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "mesh_default_12106default.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Container_Lightbake",
+            "uri" : "Container_Lightbake.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "lightmapbake_objects",
+            "uri" : "lightmapbake_objects.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 21064,
+            "max" : [
+                25.686134338378906,
+                8.913702011108398,
+                1.1350629329681396
+            ],
+            "min" : [
+                -30.7750301361084,
+                -14.43606948852539,
+                -14.640135765075684
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 21064,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 21064,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 28806,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 87789,
+            "max" : [
+                16.18772315979004,
+                8.558309555053711,
+                0.6225987076759338
+            ],
+            "min" : [
+                -29.04293441772461,
+                -13.78773021697998,
+                -13.309649467468262
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 87789,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 87789,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5125,
+            "count" : 194823,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 252768,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 252768,
+            "byteOffset" : 252768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 168512,
+            "byteOffset" : 505536
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 57612,
+            "byteOffset" : 674048
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1053468,
+            "byteOffset" : 731660
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1053468,
+            "byteOffset" : 1785128
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 702312,
+            "byteOffset" : 2838596
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 779292,
+            "byteOffset" : 3540908
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4320200,
+            "uri" : "homespace-baked.bin"
+        }
+    ]
+}
