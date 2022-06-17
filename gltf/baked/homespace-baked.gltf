@@ -122,14 +122,14 @@
     ],
     "images" : [
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "Container_Lightbake",
-            "uri" : "Container_Lightbake.png"
+            "uri" : "Container_Lightbake.jpg"
         },
         {
-            "mimeType" : "image/png",
+            "mimeType" : "image/jpeg",
             "name" : "lightmapbake_objects",
-            "uri" : "lightmapbake_objects.png"
+            "uri" : "lightmapbake_objects.jpg"
         }
     ],
     "accessors" : [
